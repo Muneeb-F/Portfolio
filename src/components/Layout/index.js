@@ -11,6 +11,8 @@ const Layout = () => {
                 
                 {/* yellow writing that says body and html */}
                 
+                <span className='tags top-html'>&lt;html&gt;</span>
+                <br/>
                 <span className='tags top-tags'>&lt;body&gt;</span>
 
                 <Outlet />
