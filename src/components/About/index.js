@@ -3,7 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython, faCss3, faHtml5, faReact, faGitAlt, faJsSquare,} from '@fortawesome/free-brands-svg-icons'
-import Loader from 'react'
+import Loader from 'react-loaders'
 import { faC } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
 
     return (
         <>
-         <div className="about-page">
+         <div className="container about-page">
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters 
@@ -73,7 +73,7 @@ const About = () => {
 
             </div>
         </div>
-        {/* <Loader type="line-scale-pulse-out" /> */}
+        <Loader type="pacman" />
         </>
     )
 }
