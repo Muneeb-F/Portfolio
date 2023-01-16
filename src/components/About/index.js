@@ -31,19 +31,13 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
-                    Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
-                    Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
+                    Hey, I am a Software Engineering student at the UNiversity of Waterloo. I havr enjoyed software developement since grade 10 and I recently have delved further into frontend developement. 
                 </p>
                 <p>
-                    Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
-                    Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
-                    Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
+                    Outside of school, I enjoy sports, both watching and playing. I am an avid Toronto Raptors and Toronto Blue Jays fan and enjoy playing basketball in my spare time. 
                 </p>
                 <p>
-                    Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
-                    Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
-                    Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
+                    
                 </p>
             
             </div>
