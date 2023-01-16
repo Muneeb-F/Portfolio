@@ -31,13 +31,13 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    Hey, I am a Software Engineering student at the UNiversity of Waterloo. I havr enjoyed software developement since grade 10 and I recently have delved further into frontend developement. 
+                    Welcome to my portfolio! I'm Muneeb and I am a Software Engineering student at the University of Waterloo. I began software development 3 years ago and have a wealth of experience and knowledge to offer. I am always looking for new challenges and opportunities to grow, and am constantly seeking to improve my skills and knowledge.
                 </p>
                 <p>
-                    Outside of school, I enjoy sports, both watching and playing. I am an avid Toronto Raptors and Toronto Blue Jays fan and enjoy playing basketball in my spare time. 
+                    I am a team player and have excellent communication skills, which have helped me to build strong relationships with my colleagues and clients. I am also highly organized and able to work well under pressure, which has helped me to deliver projects on time and to a high standard.
                 </p>
                 <p>
-                    
+                Outside of school, I enjoy sports, both watching and playing. I am an avid Toronto Raptors and Toronto Blue Jays fan and enjoy playing basketball in my spare time. 
                 </p>
             
             </div>
