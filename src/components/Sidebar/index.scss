@@ -84,6 +84,13 @@
             }
         }
 
+        a.portfolio-link {
+            &:after {
+                content: 'PORTFOLIO';
+            }
+            size: absolute;
+        }
+
         a.contact-link {
             &:after {
                 content: 'CONTACT';
