@@ -60,10 +60,7 @@
             100% {
                 background-position: 0% 50%;
             }
-        }
-            
-
-        
+        }  
 
         .title {
             margin-bottom: 0;
@@ -130,6 +127,51 @@
         }
     }
 
+}
 
+@media screen and (max-width: 1200px) {
+    .container.portfolio-page {
+        width: 100%;
+        // flex-wrap: wrap;
+        padding: 20px;
+        box-sizing: border-box;
+    
+        h1.page-title {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
 
+        .image-box {
+            flex: 1 1 50%;
+            height: 200px;
+            max-width: calc(50% + 100px);
+            
+            .title {
+                margin-bottom: 0;
+                margin-top: 0;
+                color: #fff;
+                font-size: 13px;
+                overflow: wrap;
+                font-weight: 1000;
+                line-height: 24px;
+            }
+
+            .description {
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            
+            .btn {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                padding: 10px 10px 10px 10px;
+                height: 30px;
+                line-height: 5px;
+                font-size: 12px;    
+            }
+
+        }   
+    
+    }
 }

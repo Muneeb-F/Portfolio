@@ -33,10 +33,10 @@ const Contact = () => {
                     <div className='contact-form'>
                         <form>
                             <ul>
-                                <li className='half'>
+                                <li>
                                     <input type='text' name="name" placeholder='Name' required />
                                 </li>
-                                <li className='half'>
+                                <li>
                                     <input type='text' name="email" placeholder='Email' required />
                                 </li>
                                 <li>
