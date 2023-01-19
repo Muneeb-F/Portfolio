@@ -4,7 +4,7 @@ import { useEffect, useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython, faCss3, faHtml5, faReact, faGitAlt, faJsSquare,} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
-import { faC } from '@fortawesome/free-solid-svg-icons'
+import cpplogo from '../../assets/images/C++_Logo.png'
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -59,10 +59,8 @@ const About = () => {
                         <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
                     </div>
                     <div className='face6'>
-                        <FontAwesomeIcon icon={faC} color='#27285C' /> 
+                        <img src={cpplogo} alt="C++ Logo" /> 
                     </div>
-
-
                 </div>
 
             </div>
