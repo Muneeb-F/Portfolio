@@ -6,6 +6,11 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 
+import { inject } from '@vercel/analytics';
+
+inject();
+
+
 function App() {
   return (
     <>
