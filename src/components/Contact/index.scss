@@ -84,6 +84,22 @@
     font-size: 11px;
 }
 
+.socials{
+    position: flex;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;    
+    text-align: center;
+    margin: 0;
+    a{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
 @media screen and (max-width: 1200px){
     
     .map-wrap {

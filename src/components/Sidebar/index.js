@@ -45,7 +45,8 @@ const Sidebar = () => {
         <ul>
             {/* Links to Socials */}
             <li>
-                <a 
+                <a
+                onClick={() => setShowNav(false)}
                 target="blank"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/muneeb-farrukh-84a9b71b2/"
@@ -55,6 +56,7 @@ const Sidebar = () => {
             </li>
             <li>
                 <a 
+                onClick={() => setShowNav(false)}
                 target="blank"
                 rel="noreferrer"
                 href="https://github.com/Muneeb-F"
