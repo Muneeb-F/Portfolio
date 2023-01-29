@@ -46,8 +46,8 @@ const Home = () => {
                     <h2>Frontend Developer / Python Enthusiast / Graphic Designer </h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
-                
-        </div>
+                <Logo/>          
+            </div>
         <Loader type="pacman" />
         </>
         );
