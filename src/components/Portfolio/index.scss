@@ -39,7 +39,7 @@
             position: absolute;
             width: 100%;
             z-index: 3;
-            padding: 10px 20px;
+            padding: 10px 20px 0px 20px;
             bottom: -70px;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             //---COTTON CANDY COLOUR---//
@@ -47,7 +47,7 @@
             background: linear-gradient(-45deg, #181818, #ED7D31, #181818, #ED7D31,#fff);
             background-size: 400% 400%;
             animation: gradient 15s ease infinite;
-            height: 22vh;
+            height: 24vh;
         }
         
         @keyframes gradient {
@@ -66,7 +66,7 @@
             margin-bottom: 0;
             margin-top: 0;
             color: #fff;
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 500;
             line-height: 24px;
         }
@@ -140,10 +140,13 @@
             margin-left: 20px;
             margin-top: 20px;
         }
+        .content{
+            height: 21vh;
+        }
 
         .image-box {
             flex: 1 1 50%;
-            height: 200px;
+            height: 20vh;
             max-width: calc(50% + 100px);
             
             .title {
