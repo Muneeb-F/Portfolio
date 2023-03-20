@@ -4,10 +4,10 @@ import './index.scss'
 import LogoM from '../../assets/images/logo-m.png'
 import LogoSubtitle from '../../assets/images/logo-sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHome, faSuitcase, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import {faHome, faSuitcase, faBars, faClose, faFile, faFileLines } from '@fortawesome/free-solid-svg-icons'
 import {faUser } from '@fortawesome/free-solid-svg-icons'
 import {faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faPage4, faPagelines} from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
     const [showNav, setShowNav] = useState(false)    
@@ -44,6 +44,15 @@ const Sidebar = () => {
         </nav>
         <ul>
             {/* Links to Socials */}
+            <li>
+                <a 
+                onClick={() => setShowNav(false)}
+                target="blank"
+                rel="noreferrer"
+                href="https://drive.google.com/file/d/1DlFITdznhc9nSAs13_oHR3QfKkzdiOjE/view?usp=share_link">
+                    <FontAwesomeIcon icon={faFileLines} color="#fff" />
+                </a>
+            </li>
             <li>
                 <a
                 onClick={() => setShowNav(false)}
