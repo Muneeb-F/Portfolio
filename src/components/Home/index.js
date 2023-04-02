@@ -9,7 +9,7 @@ import Logo from './Logo'
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['u','n','e','e','b']
-    const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r','.',]
+    const jobArray = ['S','o','f','t', 'w','a','r','e', ' ','D','e','v','e','l','o','p','e','r','.',]
 
     useEffect(() => {
         // ORIGINAL LINE
@@ -43,7 +43,7 @@ const Home = () => {
                     strArray={jobArray}
                     idx={22}/>
                     </h1>
-                    <h2>Frontend Developer / Software Engineer / Graphic Designer </h2>
+                    <h2>Full Stack Developer / Software Engineer / Graphic Designer </h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
                 <Logo/>          
