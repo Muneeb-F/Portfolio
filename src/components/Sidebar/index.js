@@ -4,7 +4,7 @@ import './index.scss'
 import LogoM from '../../assets/images/logo-m.png'
 import LogoSubtitle from '../../assets/images/logo-sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHome, faSuitcase, faBars, faClose, faFile, faFileLines } from '@fortawesome/free-solid-svg-icons'
+import {faHome, faSuitcase, faBars, faClose, faFile, faFileLines, faFileAlt, faVcard } from '@fortawesome/free-solid-svg-icons'
 import {faUser } from '@fortawesome/free-solid-svg-icons'
 import {faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub, faPage4, faPagelines} from '@fortawesome/free-brands-svg-icons'
@@ -44,7 +44,7 @@ const Sidebar = () => {
         </nav>
         <ul>
             {/* Links to Socials */}
-            <li>
+            <li className='resume-link'>
                 <a 
                 onClick={() => setShowNav(false)}
                 target="blank"

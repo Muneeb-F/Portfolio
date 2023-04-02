@@ -1,6 +1,12 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/1/quickchat_image.png",
+            "title": "QuickChat - Chatroom App",
+            "description": "Python, Flask, HTML, CSS",
+            "url": "https://github.com/Muneeb-F/QuickChat"
+        },
+        {
             "cover": "/portfolio/1/mf_astar_image.png",
             "title": "A* Pathfinding Algorithm Visualizer",
             "description": "Python, Pygame",
@@ -11,12 +17,6 @@
             "title": "Brickbreaker - Reimagined",
             "description": "Python, Pygame",
             "url": "https://github.com/BananaBoysUW"
-        },
-        {
-            "cover": "/portfolio/1/quickchat_image.png",
-            "title": "QuickChat - Chatroom App",
-            "description": "Python, Flask, HTML, CSS",
-            "url": "https://github.com/Muneeb-F/QuickChat"
         }
     ]
 }
