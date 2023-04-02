@@ -37,11 +37,11 @@ const Home = () => {
                     <img src={LogoTitle} alt="developer" />
                     <AnimatedLetters letterClass={letterClass}
                     strArray={nameArray}
-                    idx={15}/>
+                    idx={20}/>
                     <br />
                     <AnimatedLetters letterClass={letterClass}
                     strArray={jobArray}
-                    idx={22}/>
+                    idx={15}/>
                     </h1>
                     <h2>Full Stack Developer / Software Engineer / Graphic Designer </h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
