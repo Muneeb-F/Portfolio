@@ -17,6 +17,12 @@
             "title": "A* Pathfinding Algorithm Visualizer",
             "description": "Python, Pygame",
             "url": "https://github.com/Muneeb-F/A-Star"
+        },
+        {
+            "cover": "/portfolio/1/space_invaders_clone_image.png",
+            "title": "Galactic Guardian Game",
+            "description": "HTML5 Canvas, JavaScript",
+            "url": "https://star.muneebfarrukh.com"
         }
     ]
 }
