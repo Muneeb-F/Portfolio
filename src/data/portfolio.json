@@ -13,6 +13,12 @@
             "url": "https://github.com/BananaBoysUW"
         },
         {
+            "cover": "/portfolio/1/summarize_gpt_logo.png",
+            "title": "SummarizeGPT",
+            "description": "ReactJS, Redux, Open AI API",
+            "url": "https://github.com/SummarizeGPT/MainRepo"
+        },
+        {
             "cover": "/portfolio/1/mf_astar_image.png",
             "title": "A* Pathfinding Algorithm Visualizer",
             "description": "Python, Pygame",
