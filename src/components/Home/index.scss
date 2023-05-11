@@ -15,29 +15,29 @@
         font-family: "Coolvetica";
         font-weight: 400;
 
-        &::before {
-            content: '<h1>';
-            font-family: "Quicksand";
-            color: #ED7D31;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -40px;
-            left: 15px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-        }
+        // &::before {
+        //     content: '<h1>';
+        //     font-family: "Quicksand";
+        //     color: #ED7D31;
+        //     font-size: 18px;
+        //     position: absolute;
+        //     margin-top: -40px;
+        //     left: 15px;
+        //     animation: fadeIn 1s 1.7s backwards;
+        //     opacity: 0.6;
+        // }
 
-        &::after{
-            content: '<h1>';
-            font-family: "Quicksand";
-            color: #ED7D31;
-            font-size: 18px;
-            position: absolute;
-            margin-top: 18px;
-            margin-left: 20px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-        }
+        // &::after{
+        //     content: '<h1>';
+        //     font-family: "Quicksand";
+        //     color: #ED7D31;
+        //     font-size: 18px;
+        //     position: absolute;
+        //     margin-top: 18px;
+        //     margin-left: 20px;
+        //     animation: fadeIn 1s 1.7s backwards;
+        //     opacity: 0.6;
+        // }
 
         img {
             width: 40px;
