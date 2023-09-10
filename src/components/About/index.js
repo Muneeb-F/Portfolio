@@ -31,7 +31,7 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    Hey! I'm Muneeb and I am a Software Engineering student at the University of Waterloo. I began software development 3 years ago and have a wealth of experience and knowledge to offer. I am always looking for new challenges and opportunities to grow, and am constantly seeking to improve my skills and knowledge.
+                    Hey! I'm Muneeb and I am a Software Engineering student at the University of Waterloo. I began software development 5 years ago and have a wealth of experience and knowledge to offer. I am always looking for new challenges and opportunities to grow, and am constantly seeking to improve my skills and knowledge.
                 </p>
                 <br></br>
                 <p>
