@@ -61,6 +61,28 @@
         margin-bottom: 20px;
     }
 
+    .contact-button {
+        color:#ED7D31;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: "Quicksand";
+        font-weight: 1000;
+        text-decoration: none;
+        padding: 10px 18px;
+        margin-left: 10px;
+        border: 2px solid #ED7D31;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        // width: 150px;
+
+        &:hover {
+            background: #ED7D31;
+            color: #333;
+        }
+    }
+
     .flat-button {
         color:#ED7D31;
         font-size: 13px;
@@ -74,7 +96,6 @@
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
-        // width: 150px;
 
         &:hover {
             background: #ED7D31;

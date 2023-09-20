@@ -8,8 +8,8 @@ import Logo from './Logo'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['u','n','e','e','b']
-    const jobArray = ['S','o','f','t', 'w','a','r','e', ' ','D','e','v','e','l','o','p','e','r','.',]
+    const nameArray = ['u','n','e','e','b',',']
+    const jobArray = ['S','o','f','t', 'w','a','r','e', ' ','E','n','g','i','n','e','e','r','.',]
 
     useEffect(() => {
         // ORIGINAL LINE
@@ -44,7 +44,10 @@ const Home = () => {
                     idx={15}/>
                     </h1>
                     <h2>Full Stack Developer / Software Engineer / Graphic Designer </h2>
-                    <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+                    <a href="https://drive.google.com/file/d/1DlFITdznhc9nSAs13_oHR3QfKkzdiOjE/view?usp=sharing" className='flat-button' target="_blank" rel="noopener noreferrer">RESUME</a>
+                    <Link to="/contact" className='contact-button'>CONTACT ME</Link>
+                    
+                    
                 </div>
                 <Logo/>          
             </div>
