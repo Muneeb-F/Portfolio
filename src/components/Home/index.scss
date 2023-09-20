@@ -15,30 +15,6 @@
         font-family: "Coolvetica";
         font-weight: 400;
 
-        // &::before {
-        //     content: '<h1>';
-        //     font-family: "Quicksand";
-        //     color: #ED7D31;
-        //     font-size: 18px;
-        //     position: absolute;
-        //     margin-top: -40px;
-        //     left: 15px;
-        //     animation: fadeIn 1s 1.7s backwards;
-        //     opacity: 0.6;
-        // }
-
-        // &::after{
-        //     content: '<h1>';
-        //     font-family: "Quicksand";
-        //     color: #ED7D31;
-        //     font-size: 18px;
-        //     position: absolute;
-        //     margin-top: 18px;
-        //     margin-left: 20px;
-        //     animation: fadeIn 1s 1.7s backwards;
-        //     opacity: 0.6;
-        // }
-
         img {
             width: 40px;
             margin-left: 20px;
@@ -111,7 +87,18 @@
         display: none;
     }
 
+    
+
     .home-page {
+
+        h1 {
+            font-size: 45px;
+        }
+
+        h2 {
+            font-size: 0px;
+        }
+
         .text-zone {
             position: initial;
             width: 100%;
@@ -121,6 +108,15 @@
         }
 
         .flat-button {
+            float: none;
+            position: relative;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 110px;
+
+        }
+
+        .contact-button {
             float: none;
             position: relative;
             display: block;
