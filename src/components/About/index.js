@@ -2,9 +2,14 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPython, faCss3, faHtml5, faReact, faGitAlt, faJsSquare,} from '@fortawesome/free-brands-svg-icons'
+import { faPython, faHtml5, faReact, faJsSquare, faNode, faDocker,} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import cpplogo from '../../assets/images/C++_Logo.png'
+import tflogo from "../../assets/images/tensorflow_logo.png"
+import pandaslogo from "../../assets/images/pandas_logo.png"
+import nplogo from "../../assets/images/numpy_logo.png"
+import sklearnlogo from "../../assets/images/sklearn_logo.png"
+import openailogo from "../../assets/images/openai_logo.png"
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -49,19 +54,19 @@ const About = () => {
                         <FontAwesomeIcon icon={faPython} color='#EFD81D' />
                     </div>
                     <div className='face2'>
-                        <FontAwesomeIcon icon={faHtml5} color='#F06529' />
+                        <img src={sklearnlogo} alt="scikit-Learn Logo" />
                     </div>
                     <div className='face3'>
-                        <FontAwesomeIcon icon={faCss3} color='#28A4D9' />
+                        <img src={nplogo} alt="NumPy Logo" />
                     </div>
                     <div className='face4'>
-                        <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
+                        <img src={pandaslogo} alt="Pandas Logo" /> 
                     </div>
                     <div className='face5'>
-                        <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                        <img src={tflogo} alt="TensorFlow Logo" /> 
                     </div>
                     <div className='face6'>
-                        <img src={cpplogo} alt="C++ Logo" /> 
+                        <img src={openailogo} alt="Open AI Logo" /> 
                     </div>
                 </div>
 
