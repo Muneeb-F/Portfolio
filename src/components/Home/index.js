@@ -43,7 +43,7 @@ const Home = () => {
                     strArray={jobArray}
                     idx={15}/>
                     </h1>
-                    <h2>Full Stack Developer / Software Engineer / Graphic Designer </h2>
+                    <h2> Software Engineer / AI + ML Enthusiast </h2>
                     <a href="https://drive.google.com/file/d/1DlFITdznhc9nSAs13_oHR3QfKkzdiOjE/view?usp=sharing" className='flat-button' target="_blank" rel="noopener noreferrer">RESUME</a>
                     <Link to="/contact" className='contact-button'>CONTACT ME</Link>
                     
