@@ -56,7 +56,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in Software Engineering opportunities in Artificial Intelligence and Machine Learning for Fall 2024. If you have any questions or would like to know more, please don't hesitate to reach out!
+                        I am interested in Software Engineering opportunities in Artificial Intelligence and Machine Learning for Spring 2025. If you have any questions or would like to know more, please don't hesitate to reach out!
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
